@@ -604,6 +604,7 @@ python-omniorb:
     saucy: [python-omniorb, python-omniorb-omg, omniidl-python]
     trusty: [python-omniorb, python-omniorb-omg, omniidl-python]
 python-opencv:
+  arch: [opencv]
   fedora: [opencv-python]
   ubuntu:
     saucy: [python-opencv]
@@ -1143,6 +1144,7 @@ python-setuptools:
     trusty_python3: [python3-setuptools]
 python-simplejson:
   debian: [python-simplejson]
+  fedora: [python-simplejson]
   ubuntu: [python-simplejson]
 python-sip:
   arch: [sip, python2-sip]
@@ -1171,6 +1173,7 @@ python-sip4:
   fedora: [sip]
   macports: [py27-sip4]
 python-sklearn:
+  fedora: [python-scikit-learn]
   ubuntu:
     lucid: []
     maverick: []

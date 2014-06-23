@@ -23,7 +23,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-industrial-release/abb-release.git
-      version: 1.1.1-0
+      version: 1.1.2-0
     source:
       type: git
       url: https://github.com/ros-industrial/abb.git
@@ -137,7 +137,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/AutonomyLab/ardrone_autonomy-release.git
-      version: 1.3.3-1
+      version: 1.3.4-0
     source:
       type: git
       url: https://github.com/AutonomyLab/ardrone_autonomy.git
@@ -148,6 +148,16 @@ repositories:
       type: git
       url: https://github.com/voxel-dot-at/argos3d_p100_ros_pkg.git
       version: master
+  aruco_ros:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/aruco_ros.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/pal-robotics/aruco_ros.git
+      version: master
+    status: maintained
   asctec_mav_framework:
     doc:
       type: git
@@ -338,7 +348,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ipa320/bride-release.git
-      version: 0.3.2-1
+      version: 0.3.3-0
     source:
       type: git
       url: https://github.com/ipa320/bride.git
@@ -527,7 +537,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.5.86-0
+      version: 0.5.88-0
     status: maintained
   clasp:
     doc:
@@ -678,6 +688,15 @@ repositories:
       url: https://github.com/ipa320/cob_driver.git
       version: hydro_dev
     status: developed
+  cob_environment_perception:
+    doc:
+      type: git
+      url: https://github.com/ipa320/cob_environment_perception.git
+      version: hydro_dev
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_environment_perception.git
+      version: hydro_dev
   cob_environments:
     doc:
       type: git
@@ -941,6 +960,10 @@ repositories:
       url: https://github.com/tu-darmstadt-ros-pkg/cpp_introspection.git
       version: master
   cram_3rdparty:
+    doc:
+      type: git
+      url: https://github.com/cram-code/cram_3rdparty.git
+      version: master
     release:
       packages:
       - alexandria
@@ -962,7 +985,12 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/cram_3rdparty-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
+    source:
+      type: git
+      url: https://github.com/cram-code/cram_3rdparty.git
+      version: master
+    status: maintained
   cram_core:
     doc:
       type: git
@@ -998,7 +1026,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/etsardou/crsm-slam-ros-pkg-release.git
-      version: 1.0.3-0
+      version: 1.0.3-1
     status: developed
   cv_camera:
     doc:
@@ -1099,7 +1127,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/depthimage_to_laserscan-release.git
-      version: 1.0.6-0
+      version: 1.0.7-0
     status: maintained
   diagnostics:
     doc:
@@ -1142,7 +1170,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/driver_common-release.git
-      version: 1.6.7-0
+      version: 1.6.8-0
     status: end-of-life
     status_description: Will be released only as long as required for PR2 drivers
       (hokuyo_node, wge100_driver)
@@ -1155,7 +1183,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/dynamic_reconfigure-release.git
-      version: 1.5.36-0
+      version: 1.5.37-0
     source:
       type: git
       url: https://github.com/ros/dynamic_reconfigure.git
@@ -1456,6 +1484,21 @@ repositories:
       url: https://github.com/clearpathrobotics/enu.git
       version: hydro
     status: maintained
+  epos_driver:
+    doc:
+      type: git
+      url: https://github.com/tkucner/epos_driver-released.git
+      version: upstream
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/tkucner/epos_driver-released.git
+      version: 0.0.6-0
+    source:
+      type: git
+      url: https://github.com/tkucner/epos_driver-released.git
+      version: upstream
+    status: developed
   erratic_robot:
     doc:
       type: git
@@ -1523,11 +1566,15 @@ repositories:
       version: 0.2.9-1
     status: maintained
   filters:
+    doc:
+      type: git
+      url: https://github.com/ros/filters.git
+      version: hydro-devel
     release:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/filters-release.git
-      version: 1.7.4-0
+      version: 1.7.4-2
     source:
       type: git
       url: https://github.com/ros/filters.git
@@ -1598,7 +1645,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/andreasBihlmaier/gazebo2rviz.git
-      version: hydro
+      version: master
     status: developed
   gazebo_ros_pkgs:
     doc:
@@ -1645,7 +1692,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/genlisp-release.git
-      version: 0.4.12-0
+      version: 0.4.14-0
     source:
       type: git
       url: https://github.com/ros/genlisp.git
@@ -1674,7 +1721,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/genpy-release.git
-      version: 0.4.16-0
+      version: 0.4.17-0
     source:
       type: git
       url: https://github.com/ros/genpy.git
@@ -1735,7 +1782,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/geometry-release.git
-      version: 1.10.8-0
+      version: 1.10.8-1
     source:
       type: git
       url: https://github.com/ros/geometry.git
@@ -1776,7 +1823,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/geometry_experimental-release.git
-      version: 0.4.10-0
+      version: 0.4.11-0
     source:
       type: git
       url: https://github.com/ros/geometry_experimental.git
@@ -1816,6 +1863,17 @@ repositories:
       type: git
       url: https://github.com/ktossell/gps_umd.git
       version: master
+  graft:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/graft.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-gbp/graft-release.git
+      version: 0.2.0-0
+    status: developed
   graph_msgs:
     doc:
       type: git
@@ -1830,6 +1888,17 @@ repositories:
       type: git
       url: https://github.com/davetcoleman/graph_msgs.git
       version: master
+    status: developed
+  grasping_msgs:
+    doc:
+      type: git
+      url: https://github.com/unboundedrobotics/grasping_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/unboundedrobotics-gbp/grasping_msgs-gbp.git
+      version: 0.3.0-0
     status: developed
   grizzly:
     doc:
@@ -2037,6 +2106,7 @@ repositories:
       - hector_geotiff
       - hector_geotiff_plugins
       - hector_imu_attitude_to_tf
+      - hector_imu_tools
       - hector_map_server
       - hector_map_tools
       - hector_mapping
@@ -2048,7 +2118,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_slam-release.git
-      version: 0.3.2-1
+      version: 0.3.3-0
     source:
       type: git
       url: https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
@@ -2098,7 +2168,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/tork-a/hironx_tutorial.git
-      version: tag
+      version: master
     release:
       tags:
         release: release/hydro/{package}/{version}
@@ -2107,7 +2177,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tork-a/hironx_tutorial.git
-      version: tag
+      version: master
     status: maintained
   hlugv_common:
     doc:
@@ -2128,7 +2198,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/hokuyo_node-release.git
-      version: 1.7.8-0
+      version: 1.7.8-1
     status: maintained
   household_objects_database:
     doc:
@@ -2169,7 +2239,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/hrpsys-release.git
-      version: 315.2.1-2
+      version: 315.2.2-0
     source:
       type: git
       url: https://github.com/start-jsk/hrpsys.git
@@ -2393,7 +2463,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/imu_pipeline-release.git
-      version: 0.1.2-0
+      version: 0.1.2-1
     status: maintained
   imu_tools:
     doc:
@@ -2436,7 +2506,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-industrial-release/industrial_metapackages-release.git
-      version: 0.0.1-1
+      version: 0.0.2-0
     status: developed
   interaction_cursor_3d:
     release:
@@ -2452,11 +2522,22 @@ repositories:
     source:
       type: git
       url: https://github.com/aleeper/interaction_cursor_3d.git
-      version: 0.0.3
+      version: hydro-devel
     status: developed
   interactive_marker_proxy:
+    doc:
+      type: git
+      url: https://github.com/RobotWebTools/interactive_marker_proxy.git
+      version: master
     release:
-      url: https://github.com/ros-gbp/interactive_marker_proxy-release.git
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/RobotWebTools-release/interactive_marker_proxy-release.git
+      version: 0.1.2-0
+    source:
+      type: git
+      url: https://github.com/RobotWebTools/interactive_marker_proxy.git
+      version: develop
     status: maintained
   interactive_marker_twist_server:
     doc:
@@ -2574,7 +2655,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.26-0
+      version: 1.0.27-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -2593,7 +2674,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_model_tools-release.git
-      version: 0.1.3-0
+      version: 0.1.4-0
     source:
       type: git
       url: https://github.com/tork-a/jsk_model_tools-release.git
@@ -2676,7 +2757,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.1.18-0
+      version: 1.1.19-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -2703,6 +2784,21 @@ repositories:
       url: https://github.com/jsk-ros-pkg/jsk_visualization.git
       version: master
     status: developed
+  keyboard:
+    doc:
+      type: git
+      url: https://github.com/lrse/ros-keyboard.git
+      version: 0.1.1
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/lrse-ros-release/keyboard-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/lrse/ros-keyboard.git
+      version: master
+    status: maintained
   kinect_aux:
     doc:
       type: git
@@ -2915,7 +3011,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/laser_geometry-release.git
-      version: 1.5.15-0
+      version: 1.5.16-0
   laser_pipeline:
     doc:
       type: git
@@ -2935,7 +3031,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/laser_proc-release.git
-      version: 0.1.3-0
+      version: 0.1.3-1
     status: maintained
   leap_motion:
     doc:
@@ -2968,6 +3064,21 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/libg2o-release.git
       version: 2014.02.18-0
+  libnabo:
+    doc:
+      type: git
+      url: https://github.com/ethz-asl/libnabo.git
+      version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ethz-asl/libnabo-release.git
+      version: 1.0.5-0
+    source:
+      type: git
+      url: https://github.com/ethz-asl/libnabo.git
+      version: master
+    status: maintained
   libsegwayrmp:
     doc:
       type: git
@@ -3053,11 +3164,12 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/orocos-gbp/log4cpp-release.git
-      version: 2.7.0-0
+      version: 2.7.0-1
     source:
       type: git
-      url: https://git.gitorious.org/orocos-toolchain/log4cpp.git
+      url: https://github.com/orocos-toolchain/log4cpp.git
       version: toolchain-2.7
+    status: maintained
   manipulation_msgs:
     release:
       tags:
@@ -3094,6 +3206,32 @@ repositories:
       type: git
       url: https://github.com/larsys/markov_decision_making.git
       version: master
+  mavlink:
+    doc:
+      type: git
+      url: https://github.com/vooon/mavlink-gbp-release.git
+      version: release/hydro/mavlink
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/vooon/mavlink-gbp-release.git
+      version: 1.0.9-4
+    status: maintained
+  mavros:
+    doc:
+      type: git
+      url: https://github.com/vooon/mavros.git
+      version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/vooon/mavros-release.git
+      version: 0.5.0-0
+    source:
+      type: git
+      url: https://github.com/vooon/mavros.git
+      version: master
+    status: developed
   maxwell:
     doc:
       type: git
@@ -3153,7 +3291,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/microstrain_3dmgx2_imu-release.git
-      version: 1.5.12-0
+      version: 1.5.12-1
     status: maintained
   mjpeg_server:
     doc:
@@ -3328,7 +3466,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/mikeferguson/moveit_python-release.git
-      version: 0.2.3-0
+      version: 0.2.4-0
     source:
       type: git
       url: https://github.com/mikeferguson/moveit_python.git
@@ -3468,7 +3606,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 0.3.10-0
+      version: 0.3.11-0
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -3500,6 +3638,23 @@ repositories:
       type: git
       url: https://github.com/ros-nao/nao_robot.git
       version: devel
+    status: developed
+  nao_viz:
+    doc:
+      type: git
+      url: https://github.com/ros-nao/nao_viz.git
+      version: master
+    release:
+      packages:
+      - nao_dashboard
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-gbp/nao_viz-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/ros-nao/nao_viz.git
+      version: master
     status: developed
   nasa_r2_common:
     release:
@@ -3569,7 +3724,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/navigation-release.git
-      version: 1.11.8-0
+      version: 1.11.9-0
     source:
       type: git
       url: https://github.com/ros-planning/navigation.git
@@ -3674,7 +3829,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/nodelet_core-release.git
-      version: 1.8.2-0
+      version: 1.8.4-0
     source:
       type: git
       url: https://github.com/ros/nodelet_core.git
@@ -3689,6 +3844,16 @@ repositories:
     source:
       type: git
       url: https://github.com/wg-perception/capture.git
+      version: master
+    status: maintained
+  object_recognition_clusters:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/object_recognition_clusters.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/pal-robotics/object_recognition_clusters.git
       version: master
     status: maintained
   object_recognition_core:
@@ -3785,18 +3950,18 @@ repositories:
   ocl:
     doc:
       type: git
-      url: https://git.gitorious.org/orocos-toolchain/ocl.git
+      url: https://github.com/orocos-toolchain/ocl.git
       version: toolchain-2.7
     release:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/orocos-gbp/ocl-release.git
-      version: 2.7.0-4
+      version: 2.7.0-5
     source:
       type: git
-      url: https://git.gitorious.org/orocos-toolchain/ocl.git
+      url: https://github.com/orocos-toolchain/ocl.git
       version: toolchain-2.7
-    status: developed
+    status: maintained
   octomap:
     doc:
       type: git
@@ -3925,11 +4090,16 @@ repositories:
       version: hydro-devel
     status: maintained
   open_karto:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/open_karto.git
+      version: indigo-devel
     release:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/open_karto-release.git
-      version: 1.0.1-0
+      version: 1.1.0-0
+    status: maintained
   open_street_map:
     doc:
       type: git
@@ -3953,7 +4123,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/opencv2-release.git
-      version: 2.4.6-3
+      version: 2.4.9-2
   opencv2_doc:
     release:
       tags:
@@ -4080,7 +4250,13 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/openslam_gmapping-release.git
-      version: 0.1.0-1
+      version: 0.1.0-2
+    status: maintained
+  optris_drivers:
+    doc:
+      type: git
+      url: https://github.com/ohm-ros-pkg/optris_drivers.git
+      version: groovy-devel
   orocos_kinematics_dynamics:
     doc:
       type: git
@@ -4103,17 +4279,18 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/orocos-gbp/orocos_toolchain-release.git
-      version: 2.7.0-0
+      version: 2.7.0-1
   orogen:
     release:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/orocos-gbp/orogen-release.git
-      version: 2.7.0-3
+      version: 2.7.0-4
     source:
       type: git
-      url: https://git.gitorious.org/orocos-toolchain/orogen.git
+      url: https://github.com/orocos-toolchain/orogen.git
       version: toolchain-2.7
+    status: maintained
   p2os:
     release:
       packages:
@@ -4183,6 +4360,26 @@ repositories:
     source:
       type: git
       url: https://github.com/wg-perception/people.git
+      version: hydro-devel
+    status: maintained
+  pepperl_fuchs:
+    doc:
+      type: git
+      url: https://github.com/dillenberger/pepperl_fuchs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/dillenberger/pepperl_fuchs.git
+      version: master
+    status: maintained
+  perception_blort:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/perception_blort.git
+      version: hydro-devel
+    source:
+      type: git
+      url: https://github.com/pal-robotics/perception_blort.git
       version: hydro-devel
     status: maintained
   perception_oru:
@@ -4275,7 +4472,8 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/pocketsphinx-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
+    status: maintained
   pointgrey_camera_driver:
     doc:
       type: git
@@ -4466,6 +4664,12 @@ repositories:
       url: https://github.com/ros-drivers-gbp/prosilica_gige_sdk-release.git
       version: 1.26.2-0
     status: maintained
+  pysdf:
+    doc:
+      type: git
+      url: https://github.com/andreasBihlmaier/pysdf.git
+      version: master
+    status: developed
   python_qt_binding:
     doc:
       type: git
@@ -4637,6 +4841,16 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/rgbd_launch-release.git
       version: 2.0.1-0
+  ric:
+    doc:
+      type: git
+      url: https://github.com/robotican/ric.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/robotican/ric.git
+      version: master
+    status: maintained
   robot_localization:
     doc:
       type: git
@@ -4646,7 +4860,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/cra-ros-pkg/robot_localization-release.git
-      version: 1.1.2-1
+      version: 1.1.3-0
     source:
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
@@ -4915,7 +5129,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/ros-release.git
-      version: 1.10.9-0
+      version: 1.10.10-0
     source:
       type: git
       url: https://github.com/ros/ros.git
@@ -4968,7 +5182,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.10.2-0
+      version: 1.10.10-0
     source:
       type: git
       url: https://github.com/ros/ros_comm.git
@@ -5256,7 +5470,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/rosjava-release/rosjava_bootstrap-release.git
-      version: 0.1.20-1
+      version: 0.1.21-0
     source:
       type: git
       url: https://github.com/rosjava/rosjava_bootstrap.git
@@ -5271,7 +5485,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/rosjava-release/rosjava_build_tools-release.git
-      version: 0.1.33-0
+      version: 0.1.34-0
     source:
       type: git
       url: https://github.com/rosjava/rosjava_build_tools.git
@@ -5471,11 +5685,17 @@ repositories:
       - rosserial_msgs
       - rosserial_python
       - rosserial_server
+      - rosserial_windows
       - rosserial_xbee
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/rosserial-release.git
-      version: 0.5.5-0
+      version: 0.5.6-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/rosserial.git
+      version: hydro-devel
+    status: maintained
   rovio:
     doc:
       type: git
@@ -5495,6 +5715,21 @@ repositories:
       type: git
       url: https://github.com/WPI-RAIL/rovio.git
       version: develop
+    status: maintained
+  rplidar_ros:
+    doc:
+      type: git
+      url: https://github.com/robopeak/rplidar_ros.git
+      version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/robopeak/rplidar_ros-release.git
+      version: 1.0.1-0
+    source:
+      type: git
+      url: https://github.com/robopeak/rplidar_ros.git
+      version: master
     status: maintained
   rqt:
     doc:
@@ -5607,7 +5842,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_common-release.git
-      version: 1.2.0-0
+      version: 1.2.1-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_common.git
@@ -5646,7 +5881,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_nextage-release.git
-      version: 0.2.13-0
+      version: 0.2.14-0
     source:
       type: git
       url: https://github.com/tork-a/rtmros_nextage.git
@@ -5675,18 +5910,18 @@ repositories:
   rtt:
     doc:
       type: git
-      url: https://git.gitorious.org/orocos-toolchain/rtt.git
+      url: https://github.com/orocos-toolchain/rtt.git
       version: toolchain-2.7
     release:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/orocos-gbp/rtt-release.git
-      version: 2.7.0-8
+      version: 2.7.0-9
     source:
       type: git
-      url: https://git.gitorious.org/orocos-toolchain/rtt.git
+      url: https://github.com/orocos-toolchain/rtt.git
       version: toolchain-2.7
-    status: developed
+    status: maintained
   rtt_geometry:
     doc:
       type: git
@@ -5700,7 +5935,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/orocos-gbp/rtt_geometry-release.git
-      version: 2.7.0-1
+      version: 2.7.0-2
     source:
       type: git
       url: https://github.com/orocos/rtt_geometry.git
@@ -5717,20 +5952,20 @@ repositories:
       - rtt_actionlib_msgs
       - rtt_common_msgs
       - rtt_diagnostic_msgs
+      - rtt_dynamic_reconfigure
       - rtt_geometry_msgs
       - rtt_kdl_conversions
       - rtt_nav_msgs
       - rtt_ros
       - rtt_ros_comm
       - rtt_ros_integration
-      - rtt_ros_tests
+      - rtt_ros_msgs
       - rtt_rosclock
       - rtt_roscomm
-      - rtt_roscomm_tests
+      - rtt_rosdeployment
       - rtt_rosgraph_msgs
       - rtt_rosnode
       - rtt_rospack
-      - rtt_rospack_tests
       - rtt_rosparam
       - rtt_sensor_msgs
       - rtt_shape_msgs
@@ -5743,7 +5978,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/orocos-gbp/rtt_ros_integration-release.git
-      version: 2.7.0-2
+      version: 2.7.0-3
     source:
       type: git
       url: https://github.com/orocos/rtt_ros_integration.git
@@ -5754,11 +5989,12 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/orocos-gbp/rtt_typelib-release.git
-      version: 2.7.0-1
+      version: 2.7.0-2
     source:
       type: git
-      url: https://git.gitorious.org/orocos-toolchain/rtt_typelib.git
+      url: https://github.com/orocos-toolchain/rtt_typelib.git
       version: toolchain-2.7
+    status: maintained
   rviz:
     doc:
       type: git
@@ -5794,7 +6030,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rviz_fixed_view_controller.git
-      version: 0.0.2
+      version: hydro-devel
     status: developed
   sbpl:
     release:
@@ -6014,7 +6250,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/sicktoolbox-release.git
-      version: 1.0.103-0
+      version: 1.0.103-2
     status: maintained
   sicktoolbox_wrapper:
     doc:
@@ -6025,7 +6261,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/sicktoolbox_wrapper-release.git
-      version: 2.5.3-0
+      version: 2.5.3-1
     status: maintained
   skeleton_markers:
     doc:
@@ -6048,7 +6284,22 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/slam_gmapping-release.git
-      version: 1.3.2-0
+      version: 1.3.2-1
+    status: maintained
+  slam_karto:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-gbp/slam_karto-release.git
+      version: 0.7.1-0
+    status: maintained
+  sparse_bundle_adjustment:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-gbp/sparse_bundle_adjustment-release.git
+      version: 0.3.2-0
+    status: maintained
   sql_database:
     doc:
       type: git
@@ -6099,7 +6350,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/shadow-robot/sr-ronex-release.git
-      version: 0.9.12-0
+      version: 0.9.14-0
     source:
       type: git
       url: https://github.com/shadow-robot/sr-ronex.git
@@ -6248,7 +6499,7 @@ repositories:
   tf2_web_republisher:
     doc:
       type: git
-      url: https://github.com/RobotWebTools-release/tf2_web_republisher.git
+      url: https://github.com/RobotWebTools/tf2_web_republisher.git
       version: master
     release:
       tags:
@@ -6257,7 +6508,7 @@ repositories:
       version: 0.2.1-0
     source:
       type: git
-      url: https://github.com/RobotWebTools-release/tf2_web_republisher.git
+      url: https://github.com/RobotWebTools/tf2_web_republisher.git
       version: develop
     status: maintained
   threemxl:
@@ -6442,11 +6693,12 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/orocos-gbp/typelib-release.git
-      version: 2.7.0-4
+      version: 2.7.0-5
     source:
       type: git
-      url: https://git.gitorious.org/orocos-toolchain/typelib.git
+      url: https://github.com/orocos-toolchain/typelib.git
       version: toolchain-2.7
+    status: maintained
   ublox:
     doc:
       type: git
@@ -6533,6 +6785,21 @@ repositories:
       url: https://github.com/ros-industrial/universal_robot.git
       version: hydro-devel
     status: developed
+  universal_teleop:
+    doc:
+      type: git
+      url: https://github.com/lrse/ros-universal-teleop.git
+      version: 0.1.0
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/lrse-ros-release/universal_teleop-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/lrse/ros-universal-teleop.git
+      version: master
+    status: maintained
   uos_slam:
     doc:
       type: git
@@ -6598,7 +6865,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/urg_node-release.git
-      version: 0.1.7-0
+      version: 0.1.7-1
     source:
       type: git
       url: https://github.com/ros-drivers/urg_node.git
@@ -6619,21 +6886,23 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/orocos-gbp/utilmm-release.git
-      version: 2.7.0-0
+      version: 2.7.0-1
     source:
       type: git
-      url: https://git.gitorious.org/orocos-toolchain/utilmm.git
+      url: https://github.com/orocos-toolchain/utilmm.git
       version: toolchain-2.7
+    status: maintained
   utilrb:
     release:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/orocos-gbp/utilrb-release.git
-      version: 2.7.0-2
+      version: 2.7.0-3
     source:
       type: git
-      url: https://git.gitorious.org/orocos-toolchain/utilrb.git
+      url: https://github.com/orocos-toolchain/utilrb.git
       version: toolchain-2.7
+    status: maintained
   uwsim_bullet:
     release:
       tags:
@@ -6737,7 +7006,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/vision_opencv-release.git
-      version: 1.10.17-1
+      version: 1.10.18-0
     source:
       type: git
       url: https://github.com/ros-perception/vision_opencv.git
@@ -6899,7 +7168,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/xacro-release.git
-      version: 1.8.5-0
+      version: 1.8.6-0
     source:
       type: git
       url: https://github.com/ros/xacro.git
